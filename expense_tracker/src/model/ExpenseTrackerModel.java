@@ -20,7 +20,9 @@ public class ExpenseTrackerModel {
   }
 
   public List<Transaction> getTransactions() {
-    return transactions;
+    List<Transaction> copyTransactions = new ArrayList<Transaction>(); 
+    copyTransactions.addAll(transactions);
+    return copyTransactions; 
   }
 
 }
