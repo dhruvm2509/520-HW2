@@ -46,7 +46,6 @@ public class ExpenseTrackerController {
   }
   
   // Other controller methods
-   // Other controller methods
 
   /**
    * Applies a filter to the transactions based on specified criteria.
