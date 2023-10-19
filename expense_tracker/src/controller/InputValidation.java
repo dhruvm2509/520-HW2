@@ -7,16 +7,12 @@ public class InputValidation {
   public static boolean isValidAmount(double amount) {
     
     // Check range
-    if(amount >1000) {
+    if(amount <= 0 || amount>1000) {
       return false;
     }
-    if (amount < 0){
-      return false;
+    else {
+      return true;
     }
-    if (amount == 0){
-      return false;
-    }
-    return true;
   }
 
   public static boolean isValidCategory(String category) {
