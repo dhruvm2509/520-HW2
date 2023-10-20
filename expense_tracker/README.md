@@ -26,3 +26,17 @@ The Expense Tracker App now includes a comprehensive filter feature, enabling us
 Users have the flexibility to apply filters based on either the "amount" or "category" of their transactions, but not both simultaneously. When a filter is applied and matches one or more transactions, these matching rows are highlighted in a vibrant green color (RGB code: [173, 255, 168]) for improved visibility.
 
 It's worth noting that the input validation logic developed in Homework 1 for the "amount" and "category" fields has been extended to the filter functionality as well. This ensures that the user's filtering criteria align with the expected data types and constraints, providing a consistent and reliable experience.
+
+Certainly, here's a section for your README.md file describing the implemented undo feature, based on the provided paragraph:
+
+## Undo Feature Implementation
+
+In line with good UI design principles, the Expense Tracker App now incorporates a user-friendly undo functionality. This feature enhances the overall user experience by allowing users to easily reverse any unintended actions.
+
+The basic idea of the undo functionality within the app includes the following key aspects:
+
+- **Remove Transactions:** Users have the ability to remove any transaction by simply selecting the corresponding row within the user interface. This intuitive action streamlines the process of managing their financial records.
+
+- **Total Cost Update:** When a user removes a transaction, the total cost is automatically updated to reflect this change. This ensures that the application's financial summary accurately represents the latest state, providing users with a real-time overview of their expenses.
+
+This undo feature not only simplifies the process of managing transactions but also empowers users to maintain accurate and up-to-date financial records with ease.
